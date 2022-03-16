@@ -1,0 +1,61 @@
+#Layout_Background{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+#Layout_MyPhoto{
+    background-image: url('../../assets/foto-mia.jpg');
+    width: 200px;
+    height: 200px;
+    margin-left: 70px;
+    margin-top: 50px;
+    border-radius: 50%;
+}
+#Layout_h1{
+    color: white;
+    font-size: 25px;
+    margin-left:75px;
+}
+
+#Layout_h2{
+    color: rgb(114, 114, 114);
+    font-size: 15px;
+    margin-left:75px;
+}
+
+#Layout_SectionsContent{
+    display: FLEX;
+    height: 200px;
+    flex-wrap: wrap;
+    width: 200px;
+    margin-left:21%;
+}
+
+.Layout_Links{
+    margin-top: 35px;
+    font-size: 18px;
+    width: 200px;
+    color: white;
+    text-decoration: none;
+}
+.Layout_Links:hover{
+    color: rgb(243, 115, 115);
+}
+
+#Layout_SocialMedia{
+    margin-left: 13%;
+    margin-top: 300px;
+    width: 400px;
+    height: 40px;
+}
+
+#Layout_SocialMedia a{
+    margin-left: 40px;
+    font-size: 20px;
+    color: white;
+}
+#Layout_SocialMedia a:hover{
+    color: rgb(235, 68, 68);
+}

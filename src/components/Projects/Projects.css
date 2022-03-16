@@ -1,0 +1,16 @@
+#Projects_Background{
+    background-size: cover;
+    background-position: 10%;
+    background-image: url('../../assets/BackProjects.jpg');
+}
+#Projects_h2{
+    z-index: +500;
+    margin-left: 33%;
+    border-bottom: 2PX solid rgb(181, 178, 178);
+    height: 40px;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    margin-top: 16.5%;
+    font-size: 30px;
+    width: 450px;
+}

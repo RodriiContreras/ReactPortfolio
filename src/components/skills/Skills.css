@@ -1,0 +1,151 @@
+
+#Skills_Background{
+    background-image: url('../../assets/back.jpg');
+}
+#Skills_BackgroundOpacity{
+    position: absolute;
+    width: 81%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    opacity: 50%;
+    z-index:0;
+}
+#Skills_H2{
+    z-index: +500;
+    margin-left: 33%;
+    border-bottom: 1PX solid rgb(218, 217, 217);
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    margin-top: 16.6%;
+    font-size: 30px;
+    width: 450px;
+}
+
+#Skills_ContainerSkillsFlex{
+    z-index: +500;
+    display: flex;
+    width: 35%;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 32%;
+    height: 150px;
+}
+
+
+#Skills_NodeItem{
+    z-index: +500;
+    padding-top: 7px;
+    margin-left: 20px;
+    margin-bottom: 0;
+    font-size: 65px;
+    color: #3c873a;
+}
+
+#Skills_HtmlItem{
+    z-index: +500;
+    padding-top: 7px;
+    margin-left: 20px;
+    margin-bottom: 0;
+    font-size: 65px;
+    color: #FF5733;
+}
+#Skills_CssItem{
+    z-index: +500;
+    padding-top: 7px;
+    margin-left: 20px;
+    margin-bottom: 0;
+    font-size: 65px;
+    color: #264de4;
+}
+
+#Skills_JsItem{
+    z-index: +500;
+    padding-top: 7px;
+    margin-left: 20px;
+    margin-bottom: 0;
+    font-size: 65px;
+    color: #f0db4f;
+}
+
+#Skills_ReactItem{
+    padding-top: 7px;
+    z-index: +500;
+    margin-left: 5px;
+    color: #61DBFB;
+    font-size: 65px;
+}
+
+#Skills_MongoDBItem{        
+    z-index: +500;
+    width: 80px;
+    padding-left: 5px;
+    height: 80px;
+}
+
+#Skills_Sass{
+    z-index: +500;
+    color: #ec23ba;
+    width: 75px;
+    height: 75px;
+    padding-top: 20px;
+    padding-left: 28px;
+}
+#Skills_BootstrapItem{
+    padding-left: 5px;
+    z-index: +500;
+    color: #620fdf;
+    width: 70px;
+    height: 70px;
+}
+
+#Skills_GraphQLItem{
+    z-index: +500;
+    padding-top: 20px;
+    width: 70px;
+    height: 70px;
+}
+
+#Skills_FirebaseItem{ 
+    z-index: +500;
+    width: 50px;
+    height: 70px;
+    padding-top: 20px;
+    padding-left: 28px;
+}
+#Skills_ApolloItem{
+    width: 70px;
+    padding-top: 20px;
+    padding-left: 28px;
+    z-index: +500;
+    height: 70px;
+}
+
+#Skills_NextJSItem{
+    z-index: +500;
+    width:60px;
+    height:60PX;
+    padding-top: 20px;
+    padding-left: 28px;
+}
+#Skills_JqueryItem{
+    z-index: +500;
+    width: 80px;
+    height: 80px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+#Skills_TailwindItem{
+    z-index: +500;
+    padding-top: 20px;
+    padding-left:1px;
+    width: 80px;
+    height: 80px;
+}
+
+#Skills_MaterializeItem{
+    z-index: +500;
+    padding-top:32px;
+    padding-left: 15px;
+    width: 80px;
+    height: 50px;
+}
