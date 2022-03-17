@@ -5,6 +5,7 @@ import Home from './components/Home'
 import HomeAboutMe from './components/AboutMe/HomeAboutMe';
 import HomeSkills from './components/skills/HomeSkills'
 import HomeProjects from './components/Projects/HomeProjects';
+import ContactHome from './components/ContactMe/ContactHome';
 function App() {
   return (
     <Router>
@@ -16,7 +17,7 @@ function App() {
 
       <Route exact path='/Skills' element={<HomeSkills/>}/> 
 
-      <Route exact path='/Contact' element={<Home/>}/> 
+      <Route exact path='/Contact' element={<ContactHome/>}/> 
 
       <Route exact path='/Projects' element={<HomeProjects/>}/> 
     </Routes>

@@ -1,0 +1,83 @@
+#CardProject{
+    width: 250px;
+    border-radius: 3%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;   
+    height: 250px;
+    margin-left: 50PX;
+    background-color: aliceblue;
+    text-align: center;
+}
+#CardProject p {
+   font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#CardProject_Image{
+    border-radius: 1%;
+    width: 100%;
+    height: 60%;
+}
+
+#Skills_ContentFlex{
+    display: flex;
+    justify-content: center;
+}
+#MongoDB{
+    width: 40px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+#ReactIcon{
+    color: #61DBFB;
+    font-size: 30px;
+}
+#NodeIcon{
+    padding-left: 10px;
+    color: #3c873a;
+    font-size: 30px;
+}
+
+#Firebase{
+    padding-left: 10px;
+    width: 25px;
+    height: 30px;
+}
+
+#HtmlIcon{
+    padding-left: 10px;
+    font-size: 30px;
+    color: #FF5733;
+}
+#JqueryIcon{
+    padding-left: 10px;
+    width: 32px;
+    height: 32px;
+
+}
+#BootstrapIcon{
+    padding-left: 10px;
+    font-size: 30px;
+    color: #620fdf;
+}
+
+#CssIcon{
+    color: #264de4;
+    padding-left: 10px;
+    font-size: 30px;
+}
+#JsIcon{
+    color: #c5c72d;
+    padding-left: 10px;
+    font-size: 30px;  
+}
+
+#GraphQLIcon{
+    padding-left: 10px;
+    width: 30px;
+    height: 30px;
+}

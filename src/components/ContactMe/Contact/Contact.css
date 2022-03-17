@@ -1,0 +1,22 @@
+#Contact_Background{
+    background-image: url('../../../assets/BackgroundContact.jpeg');
+    background-position: 30%;
+}
+
+#Contact_BackgroundOpacity{
+    position: absolute;
+    width: 81%;
+    height: 969px;
+    background-color: black;
+    opacity: 50%;
+}
+
+#Contact_H2{
+    position: absolute;
+    margin-left: 27%;
+    letter-spacing: 2px;
+    width: 300px;
+    color: white;
+    top: 25%;
+    border-bottom: 2px solid rgb(167, 165, 165);
+}

@@ -24,3 +24,52 @@ background-size: cover;
     width: 450px;
 }
 
+#AboutMe_p{
+    z-index: +500;
+    position: absolute;
+    margin-left: 27%;
+    line-height: 27px;
+    width: 430px;
+    top: 30%;
+    color: white;
+}
+
+#AboutMe_Education{
+    z-index: +500;
+    position: absolute;
+    margin-left: 27%;
+    width: 430px;
+    border-bottom: 2PX solid rgb(181, 178, 178);
+    color: rgb(230, 230, 230);
+    top: 55%;
+}
+
+#AboutMe_EducationCert{
+    z-index: +500;
+    position: absolute;
+    margin-left: 27%;
+    width: 4px;
+    height: 296px;
+    color: rgb(230, 230, 230);
+    top: 62%;
+}
+
+#AboutMe_EducationBranch{
+    margin-top: 15px;
+    width: 100px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+#AboutMe_Coderhouse{
+    position: relative;
+    width: 300px;
+    left: 170px;
+    bottom: 8px;
+}
+#AboutMe_EducationBranch2{
+    margin-top: 50px;
+    width: 100px;
+    height: 5px;
+    background-color: white;
+}

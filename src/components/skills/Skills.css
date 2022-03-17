@@ -58,6 +58,7 @@
     color: #264de4;
 }
 
+
 #Skills_JsItem{
     z-index: +500;
     padding-top: 7px;
@@ -84,7 +85,7 @@
 
 #Skills_Sass{
     z-index: +500;
-    color: #ec23ba;
+    color: #df0fab;
     width: 75px;
     height: 75px;
     padding-top: 20px;
