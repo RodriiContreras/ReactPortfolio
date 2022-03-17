@@ -188,6 +188,12 @@ label.fcf-label {
     line-height: 1.5;
     border-radius: 0.3rem;
 }
+.Contact_Links{
+    display: none;
+}
+#Contact_LinksFlex{
+    display: none;
+}
 
 .fcf-btn-block {
     display: block;
@@ -200,4 +206,34 @@ label.fcf-label {
 
 input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[type="button"].fcf-btn-block {
     width: 100%;
+}
+
+@media only screen and (max-width: 575px){
+    #fcf-form-id{
+        width: 100%;
+    }
+    #Contact_ContactContainer{
+        margin-left: 5%;
+        width: 90%;
+    }
+    #Contact_BackgroundOpacity{
+     width: 100%;
+    }
+    label{
+        padding-left: 0px;
+    }
+
+    .Contact_Links{
+        margin-top: 30px;
+        display: block;
+        color: white;
+    }
+    #Contact_LinksFlex{
+        position: absolute;
+        width: 100%;
+        justify-content: space-around;
+        display: flex;
+    }
+
+
 }

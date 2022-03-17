@@ -1,10 +1,16 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Contact.css'
 
 function Contact() {
   return (
     <div id='Contact_Background'>
     <div id='Contact_BackgroundOpacity'></div>
+    <div id='Contact_LinksFlex'>
+     <Link className='Contact_Links' to='/Skills'>Skills</Link>
+     <Link className='Contact_Links' to='/AboutMe'>About Me</Link>
+     <Link className='Contact_Links' to='/Projects'>Projects</Link>
+    </div>
     <h2 id='Contact_H2'>Contact me</h2>
     <div id='Contact_ContactContainer'>
     <div id="fcf-form">

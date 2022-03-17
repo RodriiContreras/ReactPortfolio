@@ -12,6 +12,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faReact,faHtml5,faBootstrap,faJs,faNodeJs,faSass,faCss3} from '@fortawesome/free-brands-svg-icons'
 import { ScrollRevelar } from './ScrollReveal'
 import { useParams } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const Skills =() => {
   const {skills} = useParams()
@@ -24,6 +25,11 @@ const Skills =() => {
     <>
    <div id='Skills_Background'>
    <div id='Skills_BackgroundOpacity'></div>
+   <div id='Skills_FlexLinks'>
+   <Link className='Skills_Link' to='/AboutMe'>About Me</Link>
+   <Link className='Skills_Link' to='/Projects'>Projects</Link>
+   <Link className='Skills_Link' to='/Contact'>Contact</Link>
+   </div>
     <h2 id='Skills_H2'>My Skills</h2>
     <div id='Skills_ContainerSkillsFlex'>
        <div id='container1'><FontAwesomeIcon id='Skills_ReactItem' icon={faReact}/></div>

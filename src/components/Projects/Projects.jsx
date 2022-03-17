@@ -16,6 +16,7 @@ import Firebase from '../../assets/firebase.png'
 import Tailwind from '../../assets/Tailwind.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faReact,faHtml5,faBootstrap,faJs,faNodeJs,faSass,faCss3} from '@fortawesome/free-brands-svg-icons'
+import { Link } from 'react-router-dom'
 
 
 
@@ -95,6 +96,11 @@ function Projects() {
 
   return (
     <div id='Projects_Background'>
+      <div id='Project_FlexLinks'>
+      <Link className='Projects_Links' to='/Skills'>Skills</Link>
+      <Link className='Projects_Links' to='/AboutMe'>About Me</Link>
+      <Link className='Projects_Links' to='/Contact'>Contact Me</Link>
+      </div>
        <h2 id='Projects_h2'>My Projects</h2>
        <div id='Projects_DivContentFlex'>
          { objectsArray? objectsArray.map(item=>(
@@ -102,6 +108,7 @@ function Projects() {
          ))
          :null
          }
+
        </div>
     </div>
   )

@@ -1,15 +1,24 @@
 import React,{useEffect} from 'react'
 import './AboutMe.css'
 import { ScrollRevelar } from './scrollreveal/AboutScrollReveal'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowCircleRight } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom'
 const AboutMe =() => {
+
+
   useEffect(() => { 
     ScrollRevelar()
   }, [])
-  
+
   return (
     <>
     <div id='AboutMe_Background'>
+    <div id='AboutMe_LinksFlex'>
+    <Link className='LinkSections' to='/Contact'> Contact Me</Link>
+    <Link className='LinkSections' to='/Skills'> Skills</Link>
+    <Link className='LinkSections' to='/Projects'> Projects</Link>
+    </div>
     <div id='AboutMe_BackgroundOpacity'></div>
     <h2 id='AboutMe_h2'>About me</h2>
     <p id='AboutMe_p'>

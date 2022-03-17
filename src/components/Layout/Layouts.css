@@ -5,6 +5,10 @@
     
 }
 
+#Button_Mobile{
+    display: none;
+}
+
 #Layout_MyPhoto{
     background-image: url('../../assets/foto-mia.jpg');
     width: 200px;
@@ -58,4 +62,24 @@
 }
 #Layout_SocialMedia a:hover{
     color: rgb(235, 68, 68);
+}
+
+@media only screen and (max-width: 575px){
+
+    #Button_Mobile{
+        display: block;
+        background-color: rgba(240, 248, 255, 0);
+        border: 0;
+        margin-top: 30px;
+        margin-bottom: 0;
+        margin-left: 70%;
+    }
+    #Button_XIcon{
+        color: white;
+        font-size: 20px;
+    }
+
+    #Layout_SocialMedia{
+        display: none;
+    }
 }

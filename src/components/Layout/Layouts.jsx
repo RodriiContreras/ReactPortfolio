@@ -4,21 +4,15 @@ import './Layouts.css'
 import Arrow from '../../assets/icons/arrow.png'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faFacebook,faGithub,faInstagram,faLinkedin} from '@fortawesome/free-brands-svg-icons'
-import ScrollReveal from 'scrollreveal'
-function Layouts() {
+import { faX } from '@fortawesome/free-solid-svg-icons'
 
-//   window.sr= ScrollReveal()
 
-//   ScrollReveal().reveal('.Layout_Links',{
-//     duration:800,
-//     origin:'bottom',
-//     distance:'-100px'
-
-// });
+function Layouts({hideLayout}) {
 
 
   return (
     <div id='Layout_Background'>
+      <button id='Button_Mobile' onClick={hideLayout}><FontAwesomeIcon id='Button_XIcon' icon={faX}/></button>
       <div id='Layout_MyPhoto'></div>
       <h1 id='Layout_h1'>Rodrigo Contreras</h1>
       <h2 id='Layout_h2'>Full-Stack Developer</h2>

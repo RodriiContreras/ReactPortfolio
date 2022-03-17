@@ -151,11 +151,16 @@
     height: 50px;
 }
 
+#Skills_FlexLinks{
+    display: none;
+}
+
 
 @media only screen and (max-width: 575px){
     #Skills_H2{
         margin-left: 4%;
         width: 95%;
+        margin-top: 40%;
     }
     #Skills_ContainerSkillsFlex{  
         margin-left: 15%;
@@ -169,6 +174,19 @@
         padding-top: 15px;
         padding-left: 15px;
     }
+
+    .Skills_Link{
+    margin-top: 30px;
+    color: white;
+    }
+
+    #Skills_FlexLinks{
+        position: absolute;
+        justify-content: space-around;
+        display: flex;
+        width: 100%;
+    }
+
 
     #Skills_FirebaseItem{ 
         z-index: +500;
@@ -197,7 +215,6 @@
     width: 70px;
     height: 70px;
 }
-
 
     #Skills_BackgroundOpacity{
         width: 100%;
