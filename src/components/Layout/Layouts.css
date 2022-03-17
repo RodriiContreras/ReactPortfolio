@@ -49,14 +49,15 @@
 }
 
 #Layout_SocialMedia{
-    margin-left: 13%;
     margin-top: 300px;
-    width: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
     height: 40px;
 }
 
 #Layout_SocialMedia a{
-    margin-left: 40px;
+    margin-left: 5px;
     font-size: 20px;
     color: white;
 }
@@ -81,5 +82,24 @@
 
     #Layout_SocialMedia{
         display: none;
+    }
+}
+
+@media only screen and (min-width:1300px) and (max-width: 1400px){
+    #Layout_MyPhoto{
+        background-image: url('../../assets/foto-mia.jpg');
+        margin-left: 10px;
+    }
+
+    #Layout_h1{
+        color: white;
+        font-size: 25px;
+        margin-left:45px;
+    }
+    
+    #Layout_h2{
+        color: rgb(114, 114, 114);
+        font-size: 15px;
+        margin-left:45px;
     }
 }

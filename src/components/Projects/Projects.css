@@ -56,7 +56,13 @@
         display: block;
         color: white;
     }
+}
 
-
-    
+@media only screen and (min-width:1300px) and (max-width: 1400px){
+    #Projects_DivContentFlex{
+        position: relative;
+        left: 0%;
+        display: flex;
+        width: 100%;
+    }
 }

@@ -221,3 +221,15 @@
         height: 100%;
     }
 }
+
+@media only screen and (min-width:1300px) and (max-width: 1400px){
+ 
+    #Skills_GraphQLItem{
+        padding-left: 15px;
+        padding-top: 5px;
+    }
+    #Skills_Sass{
+        padding-top: 5px;
+        padding-left: 5px;
+    }
+}
