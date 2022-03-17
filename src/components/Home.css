@@ -53,3 +53,59 @@
     font-size: 40px;
     margin-left: 35%;
 }
+
+
+@media only screen and (max-width: 575px){
+    #Content_Grid{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 0% 100%;
+        grid-template-rows: 969px;
+    }
+
+    
+    #Home_p{
+        margin-top: 17%;
+        letter-spacing: 1px;
+        color: white;
+        font-size: 25px;
+        margin-left: 15%;
+        margin-bottom: 0%;
+    }
+    #Home_p2{
+        margin-top: 0%;
+        color: white;
+        font-size: 25px;
+        margin-left: 15%;
+        margin-bottom: 0%; 
+    }
+    #Home_p2Span{
+        color: rgb(26, 26, 26);
+        letter-spacing: 1px;
+    }
+    #Home_p3{
+        position: relative;
+        top: 35%;
+        color: white;
+        margin-left: 30%;
+    }
+    
+    #Home_Link{
+        position: relative;
+        top: 35%;
+        margin-left: 40%;
+    }
+    #Arrow_Icon{
+        font-size: 40px;
+        color: white;
+    }
+    
+    #Home_h2{
+        margin-top: 6%;
+        color: white;
+        font-size: 40px;
+        margin-left: 15%;
+    }
+    
+    
+}
