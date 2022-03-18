@@ -50,14 +50,15 @@
 
 #Layout_SocialMedia{
     margin-top: 300px;
-    width: 100%;
+    width: 70%;
+    margin-left: 15%;
     display: flex;
     justify-content: space-around;
     height: 40px;
 }
 
 #Layout_SocialMedia a{
-    margin-left: 5px;
+    margin-right: 5px;
     font-size: 20px;
     color: white;
 }
@@ -102,4 +103,13 @@
         font-size: 15px;
         margin-left:45px;
     }
+
+    #Layout_SocialMedia{
+        margin-left: 0;
+        margin-top: 300px;
+        width: 100%;
+        display: flex;
+
+    }
+    
 }
