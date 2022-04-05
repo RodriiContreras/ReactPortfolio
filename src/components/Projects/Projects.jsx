@@ -28,6 +28,7 @@ function Projects() {
     id:'container1',
     name:'React MERN (In progress)',
     img:MernImage,
+    url:'https://frontend-merncadolibre.herokuapp.com/',
     skills:
     [
    <FontAwesomeIcon id='ReactIcon' icon={faReact}/>,
