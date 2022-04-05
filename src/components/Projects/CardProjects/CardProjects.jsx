@@ -10,13 +10,14 @@ const CardProjects =({url,name,img,skills}) => {
     
   return (
     <>
-    <a href={url} target='_blank'>
     <div id='CardProject'>
+    <a href={url} target='_blank'>
     <img id='CardProject_Image' src={img}></img>
      <p>{name}</p>
      <div id='Skills_ContentFlex'>{skills}</div>
+     </a>
     </div> 
-    </a>
+
     </>
   )
 }
