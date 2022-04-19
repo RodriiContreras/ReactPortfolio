@@ -17,6 +17,7 @@ import Tailwind from '../../assets/Tailwind.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faReact,faHtml5,faBootstrap,faJs,faNodeJs,faSass,faCss3} from '@fortawesome/free-brands-svg-icons'
 import { Link } from 'react-router-dom'
+import SPAposts from '../../assets/ProjectImages/SPAPosts.jpg'
 
 
 
@@ -26,7 +27,7 @@ function Projects() {
   const objectsArray = [
     {
     id:'container1',
-    name:'React MERN (In progress)',
+    name:'React MERN',
     img:MernImage,
     url:'https://frontend-merncadolibre.herokuapp.com/',
     skills:
@@ -36,7 +37,16 @@ function Projects() {
     <img id='MongoDB' src={MongoDB}/>,
     <FontAwesomeIcon id='BootstrapIcon' icon={faBootstrap}/>]
     },
-
+    {
+      name:'Blogs SPA (In progress)',
+      img:SPAposts,
+      skills:
+      [
+     <FontAwesomeIcon id='ReactIcon' icon={faReact}/>,
+     <FontAwesomeIcon id='NodeIcon' icon={faNodeJs}/>,
+     <img id='GraphQLIcon' src={Next}/>,
+      <img id='MongoDB' src={MongoDB}/>,]
+      },
     {
     name:'React Coderhouse',
     img:ReactCoderhouse,

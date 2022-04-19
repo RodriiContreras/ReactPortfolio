@@ -5,7 +5,7 @@
 }
 #Projects_h2{
     z-index: +500;
-    margin-left: 21.2%;
+    margin-left: 13.2%;
     border-bottom: 2PX solid rgb(181, 178, 178);
     height: 40px;
     letter-spacing: 1px;
@@ -21,10 +21,10 @@
 
 #Projects_DivContentFlex{
     position: relative;
-    left: 18%;
+    left: 10%;
     flex-wrap: wrap;
     display: flex;
-    width: 1000px;
+    width: 1300px;
     height: 650px;
 }
 
