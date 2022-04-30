@@ -80,6 +80,7 @@
     
     #Home_p{
         margin-top: 17%;
+        display: none;
         letter-spacing: 1px;
         color: white;
         font-size: 25px;
@@ -87,6 +88,7 @@
         margin-bottom: 0%;
     }
     #Home_p2{
+        display: none;
         margin-top: 0%;
         color: white;
         font-size: 25px;
@@ -94,10 +96,12 @@
         margin-bottom: 0%; 
     }
     #Home_p2Span{
+        display: none;
         color: rgb(26, 26, 26);
         letter-spacing: 1px;
     }
     #Home_p3{
+        display: none;
         position: relative;
         top: 35%;
         color: white;
@@ -105,11 +109,13 @@
     }
     
     #Home_Link{
+        display: none;
         position: relative;
         top: 35%;
         margin-left: 40%;
     }
     #Arrow_Icon{
+        display: none;
         font-size: 40px;
         color: white;
     }
@@ -117,6 +123,7 @@
     #Home_h2{
         margin-top: 6%;
         color: white;
+        display: none;
         font-size: 40px;
         margin-left: 15%;
     }
