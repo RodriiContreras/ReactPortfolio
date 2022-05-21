@@ -35,14 +35,14 @@
 }
 #Home_p3{
     position: relative;
-    top: 35%;
+    top: 15%;
     color: white;
     margin-left: 46%;
 }
 
 #Home_Link{
     position: relative;
-    top: 35%;
+    top: 15%;
     margin-left: 49%;
 }
 #Arrow_Icon{
@@ -65,22 +65,12 @@
         grid-template-columns: 0% 100%;
         grid-template-rows: 969px;
     }
-    #Home_buttonMobile{
-        position: absolute;
-        border: 0;
-        background-color: rgba(245, 222, 179, 0);
-        top: 50%;
-        display: block;
-    }
-
     #ArrowRight{
         font-size: 30px;
     }
-
-    
     #Home_p{
         margin-top: 17%;
-        display: none;
+        display: block;
         letter-spacing: 1px;
         color: white;
         font-size: 25px;
@@ -88,7 +78,7 @@
         margin-bottom: 0%;
     }
     #Home_p2{
-        display: none;
+        display: block;
         margin-top: 0%;
         color: white;
         font-size: 25px;
@@ -96,26 +86,26 @@
         margin-bottom: 0%; 
     }
     #Home_p2Span{
-        display: none;
+        display: block;
         color: rgb(26, 26, 26);
         letter-spacing: 1px;
     }
     #Home_p3{
-        display: none;
+        display: block;
         position: relative;
-        top: 35%;
+        top: 15%;
         color: white;
-        margin-left: 30%;
+        margin-left: 15%;
     }
     
     #Home_Link{
-        display: none;
+        display: block;
         position: relative;
-        top: 35%;
-        margin-left: 40%;
+        top: 15%;
+        margin-left: 28%;
     }
     #Arrow_Icon{
-        display: none;
+        display: block;
         font-size: 40px;
         color: white;
     }
@@ -123,7 +113,7 @@
     #Home_h2{
         margin-top: 6%;
         color: white;
-        display: none;
+        display: block;
         font-size: 40px;
         margin-left: 15%;
     }

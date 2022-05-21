@@ -31,7 +31,7 @@ const home =() => {
    
    
       
-     
+  
       
      <p id='Home_p3'>See my history</p>
       <Link id='Home_Link' to='/AboutMe'><FontAwesomeIcon id='Arrow_Icon' icon={faArrowDown}/></Link> 
