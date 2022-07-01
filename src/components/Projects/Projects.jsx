@@ -73,7 +73,7 @@ function Projects() {
     },
     {name:'Javascript Coderhouse',
     img:CoderJS,
-    url:'https://eager-leavitt-d76e40.netlify.app/',
+    url:'https://proyecto-js-sand.vercel.app/',
     skills:[
     
     <FontAwesomeIcon id='JsIcon' icon={faJs}/>,
@@ -81,11 +81,10 @@ function Projects() {
     <FontAwesomeIcon id='HtmlIcon' icon={faHtml5}/>,
     <FontAwesomeIcon id='CssIcon' icon={faCss3}/>
 ,
-
     ]},
     {name:'Web Development Coder',
     img:WebDevelopment,
-    url:'https://stupefied-sammet-0f18ce.netlify.app/',
+    url:'https://prueba2-hafnet.vercel.app/',
     skills:[
      <FontAwesomeIcon id='HtmlIcon' icon={faHtml5}/>,
      <FontAwesomeIcon id='CssIcon' icon={faCss3}/>,
