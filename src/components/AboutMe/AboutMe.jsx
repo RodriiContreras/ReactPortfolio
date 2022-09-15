@@ -35,7 +35,7 @@ const AboutMe =() => {
       
       <div id='AboutMe_EducationBranch2'><p id='AboutMe_Coderhouse'>Advanced React - Udemy</p></div>
 
-      <div id='AboutMe_EducationBranch2'><p id='AboutMe_Coderhouse'>Backend Node / GraphQL - Udemy</p></div>
+      <div id='AboutMe_EducationBranch2'><p id='AboutMe_Coderhouse'>Backend Node / Java - Udemy</p></div>
       
       <div id='AboutMe_EducationBranch2'><p id='AboutMe_Coderhouse'>Advanced Javascript concepts - Udemy</p></div>
 

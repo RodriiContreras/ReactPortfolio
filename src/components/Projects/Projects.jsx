@@ -3,19 +3,16 @@ import CardProjects from './CardProjects/CardProjects'
 import './Projects.css'
 import MernImage from '../../assets/ProjectImages/MERN.jpg'
 import ReactCoderhouse from '../../assets/ProjectImages/React-Coderhouse.png'
-import ReactAdvanced from '../../assets/ProjectImages/fd.jpg'
 import CoderJS from '../../assets/ProjectImages/javascript.png'
 import WebDevelopment from '../../assets/ProjectImages/html.png'
 import AenimaProject from '../../assets/ProjectImages/Aenima.jpg'
 import MongoDB from '../../assets/mongodb-logo.png'
-import GraphQL from '../../assets/graphql.png'
-import Apollo from '../../assets/apollo.png'
 import Next from '../../assets/Next-js.png'
+import MySQL from '../../assets/mysql.png'
 import Jquery from '../../assets/jquery.png'
 import Firebase from '../../assets/firebase.png'
-import Tailwind from '../../assets/Tailwind.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faReact,faHtml5,faBootstrap,faJs,faNodeJs,faSass,faCss3} from '@fortawesome/free-brands-svg-icons'
+import { faReact,faHtml5,faBootstrap,faJs,faNodeJs,faSass,faCss3,faJava} from '@fortawesome/free-brands-svg-icons'
 import { Link } from 'react-router-dom'
 import SPAposts from '../../assets/ProjectImages/SPAPosts.jpg'
 
@@ -43,9 +40,9 @@ function Projects() {
       skills:
       [
      <FontAwesomeIcon id='ReactIcon' icon={faReact}/>,
-     <FontAwesomeIcon id='NodeIcon' icon={faNodeJs}/>,
+     <FontAwesomeIcon id='JavaIcon' icon={faJava}/>,
      <img id='GraphQLIcon' src={Next}/>,
-      <img id='MongoDB' src={MongoDB}/>,]
+     <img id='MySQL' src={MySQL}/>,]
       },
     {
     name:'React Coderhouse',
@@ -58,19 +55,6 @@ function Projects() {
     <FontAwesomeIcon id='CssIcon' icon={faCss3}/>]
     },
 
-
-    {
-    name:'Advanced React',
-    img:ReactAdvanced,skills:[
-    <FontAwesomeIcon id='ReactIcon' icon={faReact}/>,
-    <img id='GraphQLIcon' src={GraphQL}/>,
-    <img id='GraphQLIcon' src={Apollo}/>,
-    <img id='GraphQLIcon' src={Next}/>,
-    <img id='GraphQLIcon' src={Tailwind}/>
-    ]
-     
-  
-    },
     {name:'Javascript Coderhouse',
     img:CoderJS,
     url:'https://proyecto-js-sand.vercel.app/',

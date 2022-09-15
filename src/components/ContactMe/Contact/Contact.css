@@ -32,6 +32,7 @@
     background-color: rgb(255, 255, 255);
 }
 label{
+    padding-top: 20PX;
     padding-left: 10px;
 }
 
@@ -54,10 +55,6 @@ label{
     border: 1px solid #ced4da;
     border-radius: 0.25rem;
     max-width: 100%;
-}
-
-.fcf-form-group {
-    margin-bottom: 1rem;
 }
 
 .fcf-input-group {

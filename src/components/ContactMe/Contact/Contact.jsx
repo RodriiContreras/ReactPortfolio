@@ -42,6 +42,7 @@ function Contact() {
         <div class="fcf-form-group">
             <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
         </div>
+        
      </form>
     </div>
     

@@ -42,6 +42,15 @@ a{
     color: #3c873a;
     font-size: 30px;
 }
+#JavaIcon{
+    padding-left: 10px;
+    color: gray;
+    font-size: 30px;
+}
+#MySQL{
+    width: 50px;
+    padding-left: 10px;
+}
 
 #Firebase{
     padding-left: 10px;

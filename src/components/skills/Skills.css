@@ -24,7 +24,7 @@
 #Skills_ContainerSkillsFlex{
     z-index: +500;
     display: flex;
-    width: 35%;
+    width: 32%;
     flex-wrap: wrap;
     margin-top: 20px;
     margin-left: 32%;
@@ -43,7 +43,7 @@
 
 #Skills_HtmlItem{
     z-index: +500;
-    padding-top: 7px;
+    padding-top: 15px;
     margin-left: 20px;
     margin-bottom: 0;
     font-size: 65px;
@@ -51,7 +51,7 @@
 }
 #Skills_CssItem{
     z-index: +500;
-    padding-top: 7px;
+    padding-top: 15px;
     margin-left: 20px;
     margin-bottom: 0;
     font-size: 65px;
@@ -61,7 +61,7 @@
 
 #Skills_JsItem{
     z-index: +500;
-    padding-top: 7px;
+    padding-top: 14px;
     margin-left: 20px;
     margin-bottom: 0;
     font-size: 65px;
@@ -79,32 +79,34 @@
 #Skills_MongoDBItem{        
     z-index: +500;
     width: 80px;
-    padding-left: 5px;
+    padding-left: 20px;
     height: 80px;
 }
 
-#Skills_Sass{
-    z-index: +500;
-    color: #df0fab;
-    width: 75px;
-    height: 75px;
-    padding-top: 20px;
-    padding-left: 28px;
-}
 #Skills_BootstrapItem{
-    padding-left: 5px;
+    padding-top: 15px;
+    padding-left: 20px;
     z-index: +500;
     color: #620fdf;
     width: 70px;
     height: 70px;
 }
 
-#Skills_GraphQLItem{
+#Skills_JavaItem{
     z-index: +500;
-    padding-top: 20px;
+    color: white;
+    padding-left:20px;
     width: 70px;
     height: 70px;
 }
+#Skills_MysqlItem{
+    z-index: +500;
+    width: 120px;
+    height: 70px;
+    padding-top: 20px;
+    padding-left: 28px;
+}
+
 
 #Skills_FirebaseItem{ 
     z-index: +500;
@@ -113,10 +115,9 @@
     padding-top: 20px;
     padding-left: 28px;
 }
-#Skills_ApolloItem{
+#Skills_SpringItem{
     width: 70px;
-    padding-top: 20px;
-    padding-left: 28px;
+    padding-left: 15px;
     z-index: +500;
     height: 70px;
 }
@@ -135,21 +136,7 @@
     padding-top: 10px;
     padding-left: 20px;
 }
-#Skills_TailwindItem{
-    z-index: +500;
-    padding-top: 20px;
-    padding-left:1px;
-    width: 80px;
-    height: 80px;
-}
 
-#Skills_MaterializeItem{
-    z-index: +500;
-    padding-top:32px;
-    padding-left: 15px;
-    width: 80px;
-    height: 50px;
-}
 
 #Skills_FlexLinks{
     display: none;
